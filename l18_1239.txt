@@ -1,0 +1,22 @@
+
+Now call the printStudent() function for the student created in main() in the last exercise. Build the code, you will get an error. Paste the error in the following box.
+b) 
+Error	5	error C2248: 'person::firstname' : cannot access private member declared in class 'person'	c:\users\temp.domain.002\documents\visual studio 2012\projects\l181239-lab10\l181239-lab10\l181239student.cpp	39
+Error	6	error C2248: 'person::lastname' : cannot access private member declared in class 'person'	c:\users\temp.domain.002\documents\visual studio 2012\projects\l181239-lab10\l181239-lab10\l181239student.cpp	39
+
+
+
+c) Why did you get this error?
+
+We pass the base class as publc and the private members will be hidden and inaccessible to sub classes,that's why its giving an error
+
+
+Exercise 8:
+When we call base class as protected then the protected members as well as public members are passed as protcted members which are inaccessible to main
+
+Exercise 9:
+When we call base class as private then the privte,protected members as well as public members are passed as private members which are inaccessible to derived classes and are hidden to them
+
+
+
+
